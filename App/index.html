@@ -1,0 +1,122 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="slike/hotel.png">
+    <title>Discover hotels</title>
+    
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!--Style.css-->
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <div id="fh5co-wrapper">
+    <div id="fh5co-page">
+
+    <header id="fh5co-header-section" class="sticky-banner">
+        <div class="container">
+            <div class="nav-header">
+               <h1 id="fh5co-logo"><a href="index.html">Find the perfect hotel for you!</a></h1>
+        </div>
+        </div>
+    </header>
+
+    <!-- end:header-top -->
+
+    <div class="fh5co-hero">
+        <div class="fh5co-overlay"></div>
+        <div class="fh5co-cover" data-stellar-background-ratio="0.5" style="background-image: url(slike/gradd.jpg); ">
+            <div class="desc">
+                <div class="container">
+                   
+                    <div class="row">
+                           
+                        <div class="col-sm-5 col-md-5">
+                            
+                            <div class="tabulation animate-box">
+
+                               <div class="tab-content"></div>
+                               <div  class="tab-pane" id="hotels">
+                                <div class="row">
+                                   <div class="col-xxs-12 col-xs-12 mt">
+                                       
+                                       <div class="input-field">
+                                            
+                                           <label for="from">Choose the city:</label>
+                                          <!-- <input type="text" class="form-control" id="from-place" placeholder="Enter the city"/> -->
+                                          <select class="form-control" id="from-place">
+                                             
+                                                <option value="Nis" >Nis</option>
+                                                <option value="Beograd">Beograd</option>
+                                                <option value="Kragujevac">Kragujevac</option>
+                                                
+                                            </select>
+
+                                       </div>
+                                   </div>
+                                   <div class="col-xxs-12 col-xs-6 mt alternate">
+                                       <div class="input-field">
+                                           <label for="date-start">Arrive:</label>
+                                           <input type="date" class="form-control" id="date-start" />
+                                       </div>
+                                   </div>
+                                   <div class="col-xxs-12 col-xs-6 mt alternate">
+                                       <div class="input-field">
+                                           <label for="date-end">Check Out:</label>
+                                           <input type="date" class="form-control" id="date-end" />
+                                       </div>
+                                   </div>
+                                   <div class="col-xxs-12 col-xs-6 mt">
+                                    <section>
+                                        <label for="class">Type of room:</label>
+                                        <select class="form-control" id='typeOfRoom'>
+                                          
+                                            <option value="Standard">Standard</option>
+                                            <option value="JuniorSuite">Junior Suite</option>
+                                            <option value="SuperiorRoom">Superior Room</option>
+                                           
+                                        </select>
+                                    </section>
+                                </div>
+                                   <div class="col-xxs-12 col-xs-6 mt">
+                                       <section>
+                                           <label for="class">Number of persons:</label>
+                                           <select class="form-control" id='persons'>
+                                             
+                                               <option value="1" selected>1</option>
+                                               <option value="2">2</option>
+                                               <option value="3">3</option>
+                                               <option value="4">4</option>
+                                               <option value="5">5</option>
+                                               <option value="6">6</option>
+                                           </select>
+                                       </section>
+                                   </div>
+                                 
+                                   <div class="col-xs-12">
+                                       <input type="submit" class="btn btn-primary btn-block" id="dugme"value="Search Hotel">
+                                   </div>
+                               </div>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    <div class="KontejnerDesno">
+                        
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+    <script src="./dist/bundle.js"></script>        
+    </div>
+         
+	
+</body>
+</html>

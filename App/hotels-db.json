@@ -1,0 +1,163 @@
+{
+    "hotels":[
+        {
+            "grad":"Nis",
+            "ime":"Hotel Aleksandar",
+            "adresa":"Njegoseva 81A",
+            "brZvezdica":3,
+            "slika":"slike/aleksandar.jpg",
+            "opis":"Boasting panoramic views over Nis, Hotel Aleksandar is only 4 minutes from the city centre, providing 3 restaurants, free guarded parking and free Wi-Fi. The Aleksandar provides rooms and apartments with minibars, air conditioning and work desks.",
+            "kontakt":"018 109381",
+            "sobe":[
+                {
+                    "broj":101,
+                    "tip":"Standard",
+                    "brOsoba":2
+                },
+                {
+                    "broj":202,
+                    "tip":"Junior Suite",
+                    "brOsoba":4
+                },
+                {
+                    "broj":303,
+                    "tip":"Superior Room",
+                    "brOsoba":3
+                }
+            ]
+        },
+        {
+            "grad":"Nis",
+            "ime":"Tami Residence",
+            "adresa":"Durmitorska 1",
+            "brZvezdica":3,
+            "slika":"slike/tami.jpg",
+            "kontakt":"018 193718",
+            "opis":"This 4-star Niš hotel, just 2.5 km from the city’s historic centre, offers free Wi-Fi access and rooms with satellite TV. Parking is free and an open-air restaurant is on site.",
+            "sobe":[
+                {
+                    "broj":104,
+                    "tip":"Standard",
+                    "brOsoba":3
+                },
+                {
+                    "broj":204,
+                    "tip":"Junior Suite",
+                    "brOsoba":4
+                },
+                {
+                    "broj":304,
+                    "tip":"Superior Room",
+                    "brOsoba":5
+                }
+            ]
+        },
+        {
+            "grad":"Nis",
+            "ime":"My Place",
+            "adresa":"Kej 29. Decembar bb ",
+            "brZvezdica":4,
+            "slika":"slike/myPlace.jpg",
+            "kontakt":"018 078125",
+            "opis":"The Best Western Hotel My Place can be found in a peaceful part of the city centre of Nis. It is located right at the Nišava river and faces the fortress. Enjoy the panoramic views from the elegant restaurant with its terrace or from your fully equipped room.",
+            "sobe":[
+                {
+                    "broj":104,
+                    "tip":"Standard",
+                    "brOsoba":3
+                },
+                {
+                    "broj":204,
+                    "tip":"Junior Suite",
+                    "brOsoba":4
+                },
+                {
+                    "broj":304,
+                    "tip":"Superior Room",
+                    "brOsoba":5
+                }
+            ]
+        },
+        {
+            
+            "grad":"Beograd",
+            "ime":"Hyatt",
+            "adresa":"Milentija Popovica 5",
+            "brZvezdica":5,
+            "slika":"slike/hyatt.jpg",
+            "kontakt":"011 231879",
+            "opis":"The 5-star Hyatt Regency Belgrade hotel enjoys a convenient location in Novi Beograd's business district, between the Beograd Airport and the Old Town. It features various restaurants and a luxurious spa. Standard internet access is provided free of charge, while higher speed access is available at a surcharge.            ",
+            "sobe":[
+                {
+                    "broj":1001,
+                    "tip":"Standard",
+                    "brOsoba":2
+                },
+                {
+                    "broj":2001,
+                    "tip":"Junior Suite",
+                    "brOsoba":2
+                },
+                {
+                    "broj":3001,
+                    "tip":"Superior Room",
+                    "brOsoba":3
+                }
+            ]
+        },
+        {
+           
+            "grad":"Beograd",
+            "ime":"Moskva",
+            "adresa":"Terazije 20",
+            "brZvezdica":4,
+            "slika":"slike/moskva.jpg",
+            "kontakt":"011 123352",
+            "opis":"Offering free and unlimited use of the wellness and spa centre and the gym, Hotel Moskva is housed in an Empire-style building considered a local landmark. Ideally set on Belgrade’s main street, it offers an a la carte restaurant and the well-known pastry shop. Elegantly decorated rooms feature air conditioning and free Wi-Fi.            ",
+            "sobe":[
+                {
+                    "broj":105,
+                    "tip":"Standard",
+                    "brOsoba":3
+                },
+                {
+                    "broj":205,
+                    "tip":"Junior Suite",
+                    "brOsoba":4
+                },
+                {
+                    "broj":305,
+                    "tip":"Superior Room",
+                    "brOsoba":5
+                }
+            ]
+        },
+        {
+        "grad":"Kragujevac",
+        "ime":"Garni Hotel Lazarevic",
+        "adresa":"Kralja Petra Prvog 29A",
+        "brZvezdica":3,
+        "slika":"slike/garni.jpg",
+        "kontakt":"034 298323",
+        "opis":"Located in Kragujevac city centre, Garni Hotel Lazarevic is surrounded by a spacious garden. The main pedestrian zone with shops and historic sights is only a short walk away. Free Wi-Fi is provided. ",
+        "sobe":[
+            {
+                "broj":105,
+                "tip":"Standard",
+                "brOsoba":3
+            },
+            {
+                "broj":205,
+                "tip":"Junior Suite",
+                "brOsoba":4
+            },
+            {
+                "broj":305,
+                "tip":"Superior Room",
+                "brOsoba":5
+            }
+        ]
+    }
+]
+    
+}
