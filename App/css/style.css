@@ -1,28 +1,33 @@
-@font-face {
-  font-family: 'icomoon';
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-/* =======================================================
-*
-* 	Template Style 
-*	Edit this section
-*
-* ======================================================= */
+
 body {
   font-family: "Open Sans", Arial, sans-serif;
   line-height: 1.6;
   font-size: 16px;
-  background: #fff;
+  background-repeat: repeat;
   color: #848484;
   font-weight: 300;
   overflow-x: hidden;
+  position: absolute !important;
+  width: 100%;
+
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  background: rgba(255, 62, 28, 0.5);
+  background: -moz-linear-gradient(left, rgba(255, 62, 28, 0.5) 0%, rgba(255, 140, 0, 0.5) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255, 62, 28, 0.5)), color-stop(100%, rgba(255, 140, 0, 0.5)));
+  background: -webkit-linear-gradient(left, rgba(255, 62, 28, 0.5) 0%, rgba(255, 140, 0, 0.5) 100%);
+  background: -o-linear-gradient(left, rgba(255, 62, 28, 0.5) 0%, rgba(255, 140, 0, 0.5) 100%);
+  background: -ms-linear-gradient(left, rgba(255, 62, 28, 0.5) 0%, rgba(255, 140, 0, 0.5) 100%);
+  background: linear-gradient(to right, rgba(255, 62, 28, 0.5) 0%, rgba(255, 140, 0, 0.5) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3e1c', endColorstr='#ff8c00', GradientType=1 );
+
+
+
 }
-.fh5co-cover{
-  background-image:url("slike/gradd.jpg");
-}
+
 .slika
 {
    width:220px;
@@ -30,6 +35,21 @@ body {
   margin:5px;
   float:right;
 
+}
+.link{
+  float:left;
+  text-decoration: underline;
+  margin-left:2px;
+}
+.link:hover, .link:visited
+{
+  color:darkolivegreen;
+}
+.reserved
+{
+  float:right;
+  font-size: 16px;
+  color:darkslategrey;
 }
 @media screen and (max-width: 130px) {
   .slika {
@@ -49,35 +69,43 @@ body {
   width:45%;
   font-size:14px;
   line-height:normal;
-  
-
 }
 
-.bookDugme
+.bookDugme, .reserve
 {
   background: #F78536;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
   float:left;
- 
   border: 1px solid red !important;
-  border-radius:1px;
   opacity: 1;
   border: 2px solid #fff !important;
   color: #fff !important;
   letter-spacing: 1px !important;
   font-weight: 400 !important;
- 
+  border-radius:3px;
 
 }
- .bookDugme:hover .bookDugme:focus .bookDugme:active {
-  border: 2px solid #F78536 !important;
-  background: #F78536 !important;
-  color: #fff !important;
+ .bookDugme:hover {
+  color:darkslategray;
+}
+.slikaSlideshow
+{
+  width:50%;
+  height:40%;
+  margin:10px;
+  border-radius:5px;
+}
+.opisSlike
+{
+  width:40%;
+  height:auto;
+  float:left;
+  color:darkslategrey;
 }
 
-.myModal
+.myModal, .myModal2
 {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -90,13 +118,32 @@ body {
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  
 }
-.modal-content {
+
+
+.modal-content, .modal-content2 {
   background-color: sandybrown;
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
+}
+.modal-content
+{
+  width:40%;
+  height:50%;
+}
+.modal-content2
+{
+  border-radius:7px;
+  overflow:hidden;
+  color:white;
+}
+.desnoModal
+{
+  float:right;
+  top:0;
 }
 .close {
   color: #aaaaaa;
@@ -123,11 +170,15 @@ body {
 {
   margin-left: 2px;
 }
+.inputPhone{
+  margin-left:4px;
+}
 .divHotel{
- height:296px;
+ height:320px;
  width:100%;
  margin: 5px;
- padding:3px;
+ padding:2px;
+ margin-right:0.5px;
  
 }
 @media screen and (max-width: 1120px) {
@@ -135,29 +186,36 @@ body {
     float:left;
    width:50%;
    height:auto;
+   
   }
 }
 .divDesno{
  color:darkslategray;
   border-radius:2%;
-  overflow:auto;
   float:left;
   width:100%;
   height:auto;
   background-color: lightyellow;
   margin-top:0px;
+  overflow-x:hidden;
 
-
+  
 }
-
+.fh5co-hero
+{
+  height:1200px;
+}
 .hr{
   margin-top:1px;
+  border:darkslategray;
 }
 
+
 .kontejnerDesno{
-  overflow:auto;
-  width:50%;
-  height:700px;
+  
+  width:55%;
+  height:auto;
+  overflow: auto;
 }
 @media screen and (max-width: 1120px) {
   .kontejnerDesno,
@@ -167,6 +225,7 @@ body {
   }
 }
  
+
 body.fh5co-offcanvas {
   overflow: hidden;
   background-repeat:repeat-y;
@@ -236,7 +295,14 @@ figure {
 .fh5co-cover,
 .fh5co-hero {
   position: relative;
-  height: 800px;
+  height: 786px;
+}
+@media screen and (min-height: 768px) {
+  .desc {
+    height: 700px;
+    background-image: url("slike/crystal.jpg");
+    background-repeat: repeat-y;
+  }
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover,
@@ -244,29 +310,14 @@ figure {
     height: 700px;
   }
 }
-.fh5co-cover .fh5co-overlay,
-.fh5co-hero .fh5co-overlay {
-  position: absolute !important;
-  width: 100%;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: 1;
-  background: rgba(255, 62, 28, 0.5);
-  background: -moz-linear-gradient(left, rgba(255, 62, 28, 0.5) 0%, rgba(255, 140, 0, 0.5) 100%);
-  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255, 62, 28, 0.5)), color-stop(100%, rgba(255, 140, 0, 0.5)));
-  background: -webkit-linear-gradient(left, rgba(255, 62, 28, 0.5) 0%, rgba(255, 140, 0, 0.5) 100%);
-  background: -o-linear-gradient(left, rgba(255, 62, 28, 0.5) 0%, rgba(255, 140, 0, 0.5) 100%);
-  background: -ms-linear-gradient(left, rgba(255, 62, 28, 0.5) 0%, rgba(255, 140, 0, 0.5) 100%);
-  background: linear-gradient(to right, rgba(255, 62, 28, 0.5) 0%, rgba(255, 140, 0, 0.5) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3e1c', endColorstr='#ff8c00', GradientType=1 );
+
+.sticky-banner
+{
+  height:10%;
+  background-color:white;
 }
 
-.fh5co-cover {
-  background-size: cover;
-  position: relative;
-}
+
 @media screen and (max-width: 768px) {
   .fh5co-cover {
     height: inherit;

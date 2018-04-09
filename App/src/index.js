@@ -5,10 +5,7 @@ import {Hotel} from './hotels-service';
 
 
 const gradSelekt=document.getElementById("from-place");
-const datumStartSelekt=document.getElementById("date-start");
-const datumEndSelekt=document.getElementById("date-end");
-const brOsobaSelekt=document.getElementById("persons");
-
+       
 const dugme=document.getElementById("dugme");
 Rxjs.Observable.fromEvent(dugme,"click")
 .subscribe(()=>{
