@@ -8,7 +8,7 @@ module.exports={
        app:[ "./src/index.js"]
     } ,
     output:{
-        path:"./dist/",
+        publicPath:"/dist",
         filename: "bundle.js",
         path: path.resolve(__dirname,'dist')
     },
@@ -22,7 +22,7 @@ module.exports={
             use: {
                 loader: 'babel-loader',
                 options: {
-                    presets:['es2016']
+                    presets:['env']
                 }
             }
         }

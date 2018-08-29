@@ -140,6 +140,102 @@
       "from": "2018-04-12",
       "to": "2018-04-13",
       "id": 12
+    },
+    {
+      "hotelId": 1,
+      "firstName": "kjkj",
+      "lastName": "kjk",
+      "emailAddress": "jk@gmail.com",
+      "contactNumber": "98765",
+      "numberOfPersons": "1",
+      "typeOfRoom": "JuniorSuite",
+      "from": "2018-06-13",
+      "to": "2018-06-27",
+      "id": 13
+    },
+    {
+      "hotelId": 1,
+      "firstName": "adk",
+      "lastName": "kjnkjn",
+      "emailAddress": "kjn@gmail.com",
+      "contactNumber": "9876",
+      "numberOfPersons": "2",
+      "typeOfRoom": "JuniorSuite",
+      "from": "2018-06-21",
+      "to": "2018-06-22",
+      "id": 14
+    },
+    {
+      "hotelId": 1,
+      "firstName": "jh",
+      "lastName": "jhbj",
+      "emailAddress": "jhjb@gmail.com",
+      "contactNumber": "987656",
+      "numberOfPersons": "3",
+      "typeOfRoom": "JuniorSuite",
+      "from": "2018-06-20",
+      "to": "2018-06-22",
+      "id": 15
+    },
+    {
+      "hotelId": 1,
+      "firstName": "Lala",
+      "lastName": "Lalic",
+      "emailAddress": "lala@gmail.com",
+      "contactNumber": "0899878909",
+      "numberOfPersons": "1",
+      "typeOfRoom": "Standard",
+      "from": "2018-08-08",
+      "to": "2018-08-30",
+      "id": 16
+    },
+    {
+      "hotelId": 2,
+      "firstName": "Lala",
+      "lastName": "Lalic",
+      "emailAddress": "lala@gmail.com",
+      "contactNumber": "0899878909",
+      "numberOfPersons": "1",
+      "typeOfRoom": "Standard",
+      "from": "2018-08-08",
+      "to": "2018-08-30",
+      "id": 17
+    },
+    {
+      "hotelId": 1,
+      "firstName": "Lala",
+      "lastName": "Lalic",
+      "emailAddress": "lala@gmail.com",
+      "contactNumber": "0899878909",
+      "numberOfPersons": "1",
+      "typeOfRoom": "Standard",
+      "from": "2018-08-08",
+      "to": "2018-08-30",
+      "id": 18
+    },
+    {
+      "hotelId": 2,
+      "firstName": "Lala",
+      "lastName": "Lalic",
+      "emailAddress": "lala@gmail.com",
+      "contactNumber": "0899878909",
+      "numberOfPersons": "1",
+      "typeOfRoom": "Standard",
+      "from": "2018-08-08",
+      "to": "2018-08-30",
+      "id": 19
+    },
+    {
+      "hotelId": 2,
+      "firstName": "lalal",
+      "lastName": "lalla",
+      "emailAddress": "lalal@gmail.com",
+      "contactNumber": "0899999999",
+      "numberOfPersons": "3",
+      "typeOfRoom": "JuniorSuite",
+      "from": "2018-08-22",
+      "to": "2018-08-24",
+      "id": 20
     }
   ],
   "hotels": [
